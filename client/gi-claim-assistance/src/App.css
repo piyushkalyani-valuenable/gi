@@ -1,0 +1,162 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f4f6f9;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.app-header h1 {
+  margin: 0;
+  color: #333;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.reset-button {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 1px solid #007bff;
+  background-color: white;
+  color: #007bff;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.reset-button:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.chatbox {
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.welcome-message {
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.welcome-message h2 {
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+.welcome-message ol {
+  text-align: left;
+  max-width: 500px;
+  margin: 20px auto;
+  line-height: 1.8;
+}
+
+.welcome-message li {
+  margin-bottom: 10px;
+}
+
+.loading-indicator {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 15px;
+  background-color: #f0f0f0;
+  border-radius: 12px;
+  align-self: flex-start;
+  margin-bottom: 12px;
+}
+
+.spinner {
+  width: 20px;
+  height: 20px;
+  border: 3px solid #f3f3f3;
+  border-top: 3px solid #007bff;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.input-container {
+  padding: 20px;
+  background-color: #f4f6f9;
+}
+
+/* Status Banner */
+.status-banner {
+  padding: 12px 20px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.status-awaiting_policy {
+  background-color: #fff3cd;
+  color: #856404;
+  border-bottom: 1px solid #ffc107;
+}
+
+.status-awaiting_document_choice {
+  background-color: #e2e3e5;
+  color: #383d41;
+  border-bottom: 1px solid #6c757d;
+}
+
+.status-awaiting_bill,
+.status-awaiting_both_bill {
+  background-color: #cce5ff;
+  color: #004085;
+  border-bottom: 1px solid #007bff;
+}
+
+.status-awaiting_prescription,
+.status-awaiting_both_prescription {
+  background-color: #d1ecf1;
+  color: #0c5460;
+  border-bottom: 1px solid #17a2b8;
+}
+
+.status-completed {
+  background-color: #d4edda;
+  color: #155724;
+  border-bottom: 1px solid #28a745;
+}
+
+/* Scrollbar styling */
+.chatbox::-webkit-scrollbar {
+  width: 8px;
+}
+
+.chatbox::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+.chatbox::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+.chatbox::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

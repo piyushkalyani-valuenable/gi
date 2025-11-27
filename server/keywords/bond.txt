@@ -1,0 +1,53 @@
+Sum Assured
+Co Payment %
+Name of Insurer
+Name of Product
+Product UIN
+Sum Insured
+Policy Term
+Co-payment
+Hospitalisation Cover
+Room Rent
+Room Rent Limit
+Hospitalization Cover Type
+Pre-Existing Diseases (PED)
+No claim bonus
+Claim free year
+Cumulative bonus
+RoomRent_Days
+ICU_Limit
+ICU_Days
+Dental/Ophthalmic Limit
+Dental/Ophthalmic Not Covered
+Organ Donor Limit
+Waiting_Not_Over
+Bariatric Limit
+AYUSH Limit
+Repatriation Limit
+PED List
+PED Waiting Active
+Surgery Limit
+Registration_Limit
+Doctor_Visit_Limit
+Pathology_Limit
+Isolation_Limit
+Covid_Care_Limit
+Admission_Limit
+Physiotherapy_Limit
+Blood_Transfusion_Limit
+IV_Canula_Limit
+Foleys_Limit
+Central_Line_Limit
+Ryles_Tube_Limit
+Casualty_Limit
+Med_Admin_Limit
+Intensivist_Limit
+Cardiac_Monitor_Limit
+Oxygen_Limit
+BiPAP_Limit
+Covid_ICU_Limit
+ECG_Limit
+HFNC_Limit
+Ventilator_Limit
+Specialist_Limit
+RMO_Limit

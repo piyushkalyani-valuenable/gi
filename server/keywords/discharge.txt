@@ -1,0 +1,36 @@
+RoomRent_PerDay
+RoomDays
+Hospitalization_Type
+Claim_Amount
+All_Related_Expenses
+Consumables
+Pharmacy
+Total_Bill_Amount
+Discount_or_NonPayables
+ICU_PerDay
+ICU_Days
+Surgery Amount
+Registration Charges
+Visit Charges
+Pathology Charges
+Isolation Charges
+Covid Care Charges
+Admission Charges
+Physiotherapy Charges
+Blood Transfusion Charge
+IV Canula Charge
+Foleys Catheter Charge
+Central Line Charge
+Ryles Tube Charge
+Casualty Charge
+Medical Administration Charge
+Intensivist Charge
+Cardiac Monitor Charge
+Oxygen Charge
+BiPAP Charge
+COVID ICU Charges
+ECG Charges
+HFNC Charges
+Ventilator Charges
+Specialist Charges
+RMO Charges

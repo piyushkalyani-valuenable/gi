@@ -1,0 +1,42 @@
+.message {
+  max-width: 85%;
+  margin-bottom: 12px;
+  line-height: 1.5;
+  word-wrap: break-word;
+  padding: 10px 15px;
+  border-radius: 18px;
+}
+
+.message-user {
+  align-self: flex-end;
+  background-color: #007bff;
+  color: white;
+  border-radius: 18px 18px 4px 18px;
+}
+
+.message-bot {
+  align-self: flex-start;
+  background-color: #e9ecef;
+  color: #333;
+  border-radius: 18px 18px 18px 4px;
+}
+
+.message-header {
+  margin-bottom: 5px;
+  font-size: 0.9em;
+}
+
+.message-file {
+  font-weight: normal;
+  opacity: 0.8;
+  font-size: 0.9em;
+}
+
+.message-content {
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.message-bot .message-content {
+  padding-left: 10px;
+}
