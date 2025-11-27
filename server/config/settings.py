@@ -18,7 +18,7 @@ class Settings(BaseSettings):
     host: str = "0.0.0.0"
     port: int = 8000
     
-    # CORS
+    # CORS (use "*" to allow all origins, or comma-separated list)
     cors_origins: str = "http://localhost:5173,http://localhost:3000"
     
     # Local Database (for development)
@@ -35,6 +35,8 @@ class Settings(BaseSettings):
     @property
     def cors_origins_list(self) -> List[str]:
         """Parse CORS origins from comma-separated string"""
+        if self.cors_origins.strip() == "*":
+            return ["*"]
         return [origin.strip() for origin in self.cors_origins.split(",")]
     
     @property
