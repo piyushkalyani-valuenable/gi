@@ -1,10 +1,10 @@
 /**
  * API configuration
  * 
- * Uses VITE_API_BASE_URL from .env if set, otherwise defaults to localhost:8000
+ * Uses VITE_API_BASE_URL from .env if set, otherwise defaults to production URL
  */
 
-export const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000';
+export const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://gibe.pkcode.in';
 
 export const API_ENDPOINTS = {
   HEALTH: `${API_BASE_URL}/api/health`,
